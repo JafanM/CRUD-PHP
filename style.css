@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+   font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.users-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    
+
+}
+ .users-form input{
+    margin: auto;
+    height: 30px;
+    width: 70%;
+    border: 1.8px solid rgb(14, 1, 1);
+    border-radius: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    padding-left: 8px; 
+ 
+
+}
+.users-form input:hover{
+    transition: .5s;
+    border: 1px solid #2980b9;
+    color: #2498db;
+    
+}
+ input[type=submit]{
+    cursor: pointer;
+    border: 1.8px solid red;
+    font-size: 1em;
+    font-weight: bold;
+    
+
+}
+input[type=text] :focus{
+    color:blue;
+
+
+}
+/**/
+
+
+.users-table table{
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.users-table--edit{
+    border: 1px solid;
+    border-radius: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5em;
+    background: #009688;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.users-table--delete{
+    border: 1px solid;
+    border-radius: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5em;
+    background: #b11e1e;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
